@@ -8,11 +8,14 @@ import Activities from './components/Activities';
 import Footer from './components/Footer';
 import ThemeToggle from './components/ThemeToggle';
 import ScrollToTop from './components/ScrollToTop';
-import LogoLoop from './components/LogoLoop';
+import LogoLoopComponent from './components/LogoLoop';
 import PulsatingDots from './components/ui/pulsating-loader';
 import { useTheme } from './ThemeContext';
 import { SiReact, SiNextdotjs, SiTypescript, SiTailwindcss, SiVite, SiNodedotjs, SiFigma } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const LogoLoop = LogoLoopComponent as any;
 
 const techLogos = [
   { node: <SiReact className="text-black dark:text-white opacity-70 hover:opacity-100 transition-opacity" />, title: "React", href: "https://react.dev" },

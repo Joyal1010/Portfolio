@@ -1,10 +1,7 @@
 
 
-import { useTheme } from '../ThemeContext';
 
 const Footer = () => {
-  const { theme, toggleTheme } = useTheme();
-
   return (
     <footer id="contact" className="border-t border-neutral-200 dark:border-neutral-800/50 mt-20 transition-colors duration-500">
       <div className="max-w-5xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center justify-between gap-8">
