@@ -42,7 +42,7 @@ function App() {
   }
 
   return (
-    <div className="min-h-screen bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans selection:bg-neutral-300 dark:selection:bg-neutral-800 selection:text-neutral-900 dark:selection:text-neutral-50 flex flex-col relative transition-colors duration-500">
+    <div className="min-h-screen overflow-x-hidden bg-neutral-50 dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100 font-sans selection:bg-neutral-300 dark:selection:bg-neutral-800 selection:text-neutral-900 dark:selection:text-neutral-50 flex flex-col relative transition-colors duration-500">
       <Header />
       <main className="flex-grow">
         <Hero />

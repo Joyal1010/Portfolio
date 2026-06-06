@@ -19,9 +19,9 @@ const Hero = () => {
           <span className="block text-neutral-800 dark:text-neutral-200 text-xl font-light transition-colors duration-500">I'm Joyal Tom Thomas</span>
         </div>
         
-        <h1 className="font-serif text-5xl md:text-7xl lg:text-8xl leading-tight mb-8 text-neutral-900 dark:text-white transition-colors duration-500">
-          Crafting digital <br />
-          <span className="text-neutral-400 dark:text-neutral-500 transition-colors duration-500">experiences with</span> <br />
+        <h1 className="font-serif text-4xl sm:text-5xl md:text-7xl lg:text-8xl leading-tight mb-8 text-neutral-900 dark:text-white transition-colors duration-500">
+          Crafting digital <br className="hidden md:block" />
+          <span className="text-neutral-400 dark:text-neutral-500 transition-colors duration-500">experiences with</span> <br className="hidden md:block" />
           purpose.
         </h1>
         <p className="text-neutral-600 dark:text-neutral-400 max-w-xl text-lg md:text-xl leading-relaxed mb-12 font-light transition-colors duration-500">

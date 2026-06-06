@@ -5,7 +5,7 @@ const About = () => {
       
       <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
         {/* Photo */}
-        <div className="md:col-span-5 w-full aspect-[4/5] rounded-2xl bg-neutral-100 dark:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800 flex items-center justify-center overflow-hidden transition-colors duration-500 relative group shadow-sm">
+        <div className="md:col-span-5 w-full max-w-sm mx-auto md:max-w-none md:mx-0 aspect-[4/5] rounded-2xl bg-neutral-100 dark:bg-neutral-900/50 border border-neutral-200 dark:border-neutral-800 flex items-center justify-center overflow-hidden transition-colors duration-500 relative group shadow-sm">
           <img 
             src="/profile.jpeg" 
             alt="Joyal Tom Thomas" 
