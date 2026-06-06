@@ -3,10 +3,10 @@ import { useTheme } from '../ThemeContext';
 
 const PROJECTS = [
   {
-    title: 'skillundo.com',
+    title: 'skillundo.tech',
     description: 'A platform built for students to sell their skills to other students - peer to peer.',
     tags: ['Web Platform', 'P2P', 'Student Network'],
-    link: 'https://skillundo.com',
+    link: 'https://www.skillundo.tech',
   }
 ];
 
