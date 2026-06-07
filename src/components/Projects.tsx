@@ -7,6 +7,12 @@ const PROJECTS = [
     description: 'A platform built for students to sell their skills to other students - peer to peer.',
     tags: ['Web Platform', 'P2P', 'Student Network'],
     link: 'https://www.skillundo.tech',
+  },
+  {
+    title: 'KCYM Kottiyoor',
+    description: 'A dynamic Catholic youth movement website dedicated to faith, community service, and spiritual growth.',
+    tags: ['Community', 'Web Platform', 'Organization'],
+    link: 'https://kcymkottiyoor.site/',
   }
 ];
 
